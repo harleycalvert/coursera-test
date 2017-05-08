@@ -1,0 +1,95 @@
+* { 
+	box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #00ff00;
+	width: 200px;
+	float: right;
+}
+
+h2[name="links"] {
+	background-color: #00ff00;
+}
+
+h2[name="git"] {
+	background-color: #ff0000;
+}
+
+h2[name="browsersync"] {
+	background-color: #00CCFF;
+}
+
+section {
+	float: left;
+	height: 300px;
+	border: 1px solid black;
+	margin: 10px;
+	background-color: #ffff00;
+	word-wrap: break-word;
+}
+
+.secDiv {
+	padding: 20px;
+}
+
+div {
+	float: left;
+	padding: 20px;
+}
+
+@media (min-width: 0px) and (max-width:767px) {
+	section[name="section1"] {
+		width: calc(100% - 20px);
+	}
+
+	section[name="section2"] {
+		width: calc(100% - 20px);
+	}
+
+	section[name="section3"] {
+		width: calc(100% - 20px);
+	}
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+	section[name="section1"] {
+		width: calc(50% - 20px);
+	}
+
+	section[name="section2"] {
+		width: calc(50% - 20px);
+	}
+
+	section[name="section3"] {
+		width: calc(100% - 20px);x;
+=	}
+}
+
+@media (min-width: 992px) {
+	section[name="section1"] {
+		width: calc(33.333% - 20px);		
+	}
+
+	section[name="section2"] {
+		width: calc(33.333% - 20px);		
+	}
+
+	section[name="section3"] {
+		width: calc(33.333% - 20px);		
+	}
+}
+
