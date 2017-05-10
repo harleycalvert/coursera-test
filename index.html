@@ -1,93 +1,594 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Hello Coursera!</title>
-	</head>
-	<body>
-		<h1>Hello Coursera! Its a Great Course!</h1>
+<!doctype html>
+<html lang="en">
 
-		<section name="section1">
-			<h2 name="links">Links</h2>
-			<div class="secDiv">
-				<a href="https://github.com/harleycalvert/coursera-test">Git Hub</a><br>
-				<a href="https://harleycalvert.github.io/coursera-test/">My Page Pushed</a><br>
-				<a href="https://facebook.com/CourseraWebDev">Facebook CourseraWebDev</a><br>
-				<a href="https://git-scm.com/book/es/v2">Pro Git Book</a><br>
-				<a href="https://jsfiddle.net/">jsfiddle</a><br>
-				<a href="https://codepen.io/">codepen.io</a><br>
-				<a href="http://caniuse.com/">Can I Use</a><br>
-				<a href="http://csszengarden.com/">CSS Zen Garden</a><br>
-				<a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">CSS Web Safe Font Combinations</a><br>
-				<a href="http://getbootstrap.com/">Bootstrap</a><br>
-				<a href="http://getbootstrap.com/css/#grid">Bootstrap Grid System</a><br>
-				<a href="https://jquery.com/">JQuery</a><br>
-				<a href="https://balsamiq.com/">Balsamiq Mockup Tool</a><br>
-			</div>
-		</section>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </head>
 
-		<section name="section2">
-			<h2 name="git">Git</h2>
-			<div class="secDiv">
-				<p>git clone https://github.com/harleycalvert/coursera-test.git</p>
-				<p>git checkout module2-solution</p>
-				<p>git status</p>
-				<p>git add .</p>
-				<p>git commit -m "my message"</p>
-				<p>git push</p>
-			</div>
-		</section>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
 
-		<section name="section3">
-			<h2 name="browsersync">Browser Sync</h2>
-			<div class="secDiv">
-				<p>browser-sync start --server --directory --files "*"</p>
-				<p>browser-sync start --server --directory --files="css/*.css"</p>
-				<p>browser-sync start --server --directory --files "**/*"</p>
-				<a href="http://localhost:3000/index.html">Browser Sync Page</a><br>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-				<br><hr><br>
-				<a href="https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-content">w3.org Kinds of content</a><br>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-				<p>span - inline element or phrasing content</p>
-				<p>div - block-level element or flow content</p>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Sushi</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
-					<br><hr><br>
-					
 
 
-			</div>
-		</section>
 
-		<hr>
 
-		<div>
-			<p>Please don't Grade this div!</p><br>
 
-			<hr>
 
-			<p>CSS</p>
-			<p>element uses name eg p or div or section
-			<p>id define with #id</p>
-			<p>class define with .nameOfClass</p>
-			<p>article > p - p direct child element of article</p>
-			<p>article p - p is a descendant element of article</p>
-			<p>.class1.class2 - belongs to both classes</p>
 
-			<hr>
 
-			<p>
-			* { <br>
-			box-sizing: border-box; <br>
-			margin: 0;<br>
-			padding: 0;<br>
-			} <br><br>
-			* select every element <br>
-			</p>
 
-		</div>
 
-	</body>
+
+
+
+
+
+
+<h2 class="text-center menuHeading">Our Menu</h2>
+
+
+ <section class="container chefsmenu">
+
+
+      <h2>Recommendations from the Chef</h2>
+      <div class="row">
+      <div class="col-xs-12">Black Pepper Steak<div class="text-right" >$16.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Mixed Vegetables<div class="text-right">$13.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Ginger Steak or Chicken<div class="text-right">$16.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Cantonese Roast Duck<div class="text-right">$24.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Crispy Skin Chicken with Plum Sauce<div class="text-right">$16.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Satay Prawns<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Spicy Prawns<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Beef Rendang<div class="text-right">$17.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Honey Prawns &amp;amp; Cashews<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Cantonese Fillet Steak<div class="text-right">$22.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Special Combination - Fresh Prawns, Chicken, Roast Pork, Beef &amp; Vegetables<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Mongolian Beef<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Godo Godo (Mixed Vegetables with Satay Sauce)<div class="text-right">$13.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Szechuan Beef<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Seafood Combination with Seasonal Vegetables<div class="text-right">$22.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Spicy Calamari<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Garlic Prawns<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chilli Prawns<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Shredded Beef<div class="text-right">$18.80</div></div>
+      </div>
+
+      <h2>
+      Soup</h2>
+      <div class="row">
+      <div class="col-xs-12">Hot &amp;amp; Sour Soup<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Combination Soup<div class="text-right">$7.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken &amp;amp; Mushroom Soup<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken &amp;amp; Crabmeat Soup<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Bean Curd &amp;amp; Veges Soup<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken &amp;amp; Sweet Corn Soup<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Short Soup (Won Ton)<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Tom Yum Seafood Soup<div class="text-right">$8.80</div></div>
+      </div>
+
+      <h2>
+      Entrees</h2>
+      <div class="row">
+      <div class="col-xs-12">Curry Puff (2 pieces)<div class="text-right">$6.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Satay Chicken or Steak on Skewers (3)<div class="text-right">$8.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chinese Sausages (3)<div class="text-right">$8.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Fried Won Ton (10) with Sweet &amp;amp; Sour Sauce<div class="text-right">$7.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Sesame Prawn (2 pieces)<div class="text-right">$5.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Vegetarian Spring Roll (3 pieces)<div class="text-right">$4.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn Fritter (5 pieces)<div class="text-right">$10.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Stuffed Crab Claw (each)<div class="text-right">$9.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Dim Sim (Half a Dozen)<div class="text-right">$8.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Scallops Fritter (6 pieces)<div class="text-right">$10.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork<div class="text-right">$8.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Spring Roll (each)<div class="text-right">$2.00</div></div>
+      </div>
+
+      <h2>
+      Chicken Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Chicken with Mixed Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Cashew Nuts<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Satay Chicken<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Tomato Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Lemon Chicken<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Bean Shoots<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Black Bean Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Kung Po Chicken with Chilli + Cashews<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Honey Chicken + Cashews<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Plum Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Curried Chicken with Vegs<div class="text-right">$14.80</div></div>
+      </div>
+
+      <h2>
+      Duckling (Half A Duck)</h2>
+      <div class="row">
+      <div class="col-xs-12">Orange Duck<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Lemon Duck<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Duck with Mushrooms &amp;amp; Oyster Sauce<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Duck with Mixed Chinese Vegetables<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">West Lake Duck<div class="text-right">$21.80</div></div>
+      </div>
+
+      <h2>
+      Seafood Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Curried Scallops with Vegs<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Fish with Black Bean Sauce<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Fish with Bean Curd &amp;amp; Mushroom<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn with Mixed Vegetables<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Kung Po Prawn with Chilli + Cashews<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Scallops with Black Bean Sauce<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn with Black Bean Sauce<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn with Cashew Nuts<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn with Mushroom &amp;amp; Oyster Sauce<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Scallops with Cashew Nuts<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Curried Prawn with Vegs<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn with Tomato Sauce<div class="text-right">$20.80</div></div>
+      </div>
+
+      <h2>
+      Sweet &amp;amp; Sour Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Fried Prawn with Pineapple Sweet &amp; Sour<div class="text-right">$20.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken with Pineapple Sweet &amp; Sour<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Fried Fish with Pineapple Sweet &amp; Sour<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Pork with Pineapple Sweet &amp; Sour<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Combination Sweet &amp; Sour (Chicken, Prawn, Roast Pork, Pineapple)<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Scallop with Pineapple Sweet &amp; Sour<div class="text-right">$20.80</div></div>
+      </div>
+
+      <h2>
+      Pork Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Bean Shoots<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Bean Curd &amp; Mushrooms<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Mushroom &amp; Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Cashew Nuts<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Plum Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Mixed Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <h2>
+      Steak Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Steak with Mushroom &amp; Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak with Tomato Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak with Black Bean Sauce<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak with Bean Shoots<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Curried Steak with Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak with Mixed Vegetables<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Kung Po Steak with Chilli + Cashews<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Satay Steak<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak with Cashew Nuts<div class="text-right">$15.80</div></div>
+      </div>
+
+      <h2>
+      Rice Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Nasi Goreng<div class="text-right">$10.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Special Fried Rice - prawn, roast pork &amp; egg (Large / Small / Extra Large)<div class="text-right">$8.80/$7.80/$10.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken Fried Rice<div class="text-right">$8.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Vegetarian Fried Rice<div class="text-right">$8.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Boiled Rice (Large / Small)<div class="text-right">$5.00/$4.50</div></div>
+      </div>
+
+      <h2>
+      Noodle Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Curry Laksa<div class="text-right">$16.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Char Kueh Teow<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Combination Noodles<div class="text-right">$19.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Singapore Noodles<div class="text-right">$13.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Mee Goreng<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak or Chicken or Pork with Veg &amp; Noodles<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Hokkien Mee<div class="text-right">$15.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Vegetarian Singapore Noodles<div class="text-right">$13.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn Noodles<div class="text-right">$21.80</div></div>
+      </div>
+
+      <h2>
+      Omelette Dishes</h2>
+      <div class="row">
+      <div class="col-xs-12">Combination Omelette<div class="text-right">$18.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Scallop Omelette<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Chicken or Pork or Steak Omelette<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Vegetarian Omelette<div class="text-right">$14.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Seafood Omelette<div class="text-right">$21.80</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Prawn Omelette<div class="text-right">$21.80</div></div>
+      </div>
+
+      <h2>
+      Desserts</h2>
+      <div class="row">
+      <div class="col-xs-12">Banana Fritter<div class="text-right">$6.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Pineapple Fritter<div class="text-right">$6.00</div></div>
+      </div>
+
+      <h2>
+      Special Lunch Box</h2>
+      <div class="row">
+      <div class="col-xs-12">Steak or Chicken with Vegetables<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak or Chicken with Chilli<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Sweet &amp; Sour Pork or Chicken<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Lemon Chicken<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Roast Pork with Vegetables<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak or Chicken with Black Bean Sauce<div class="text-right">$11.00</div></div>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-12">Steak or Chicken with Curry Sauce<div class="text-right">$11.00</div></div>
+      </div>
+
+      <br><br>
+
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
 </html>
